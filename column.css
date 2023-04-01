@@ -10,7 +10,23 @@ body {
     margin-right: auto;
 
 }
+#column2 h3 {
+    color: #34312d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+#ima {
+    width: 300px; 
+    height: auto;
+    
+}
+#ima1 {
+    width: 300px; 
+    height: auto;
+    
+}
 .jumbotron {
     background-color: #34312d;
     color: #f3f3f4;
@@ -39,7 +55,7 @@ body {
 
 }
 
-#otsikko {
+#otsikko1 {
     animation: mymove 5s infinite;
     color: #d9c5b2;
 }
@@ -47,3 +63,11 @@ body {
     @keyframes mymove {
         50% {text-indent: 150px;}
       }
+      #otsikko2 {
+        animation: mymove 5s infinite;
+        color: #d9c5b2;
+    }
+    
+        @keyframes mymove {
+            50% {text-indent: 150px;}
+          }
